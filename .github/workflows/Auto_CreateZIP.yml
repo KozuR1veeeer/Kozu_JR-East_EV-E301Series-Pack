@@ -1,0 +1,33 @@
+name: Release ZIP
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create ZIP file
+        run: |
+          zip -r "[RTM]Kozu_JR-East_EV-E301Series-Pack.zip" \
+            assets/minecraft \
+            README.md \
+            README.en.md \
+            README.kr.md \
+            README.zh.md \
+            .gitignore
+
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "[RTM]Kozu_JR-East_EV-E301Series-Pack.zip"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
