@@ -13,7 +13,7 @@
 * Minecraft 1.12.2 (RTM 2.4.23-42)
 
 ## 安装方法
-0. 从 `mods` 文件夹中删除 `[RTM]SeriesEV-E301_KarasuyamaLine`（如果已安装旧版本）。
+0. 从 `mods` 文件夹中删除 `[RTM]SeriesEV-E301_KarasuyamaLine.zip`（如果已安装旧版本）。
 1. 将下载的 `[RTM]Kozu_JR-East_EV-E301Series-Pack.zip` 复制到 `mods` 文件夹中。
 2. 启动Minecraft，确认各模型已添加。
 
