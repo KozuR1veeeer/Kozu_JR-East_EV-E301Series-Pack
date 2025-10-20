@@ -1,0 +1,107 @@
+{
+
+"trainName": "EV-E301_V1_2",
+
+"trainType": "EC",
+
+"trainModel2": { "modelFile": "EV-E301_V1_2.mqo",
+                    "textures": [["Body", "textures/train/EV-E301_V1/EV-E301_V1_2.png", "AlphaBlend,Light"],
+                                 ["Sticker", "textures/train/EV-E301_V1/Sticker.png", "AlphaBlend"]],
+				"rendererPath": "scripts/Render_EV-E301.js"
+},
+
+"bogieModel3": [
+	{"modelFile": "DT79F_EV-E301.mqo",
+	"textures": [["default", "textures/train/DT79_EV-E301.png"]]},
+	{"modelFile": "DT79_EV-E301.mqo",
+	"textures": [["default", "textures/train/DT79_EV-E301.png"]]}
+],
+
+"buttonTexture": "textures/train/button/button_EV-E301_V1_2.png",
+"rollsignTexture": "textures/train/Rolllsign_EV-E301.png",
+  "rollsignNames": [
+    "No Display",
+    "Not in service",
+    "Test Run",
+    "Extra",
+    "party",
+    "Karasuyama",
+    "Hoshakuji",
+	"Utsunomiya",
+    "Koganei",
+    "One-Man Karasuyama",
+    "One-Man Hoshakuji",
+	"One-Man Utsunomiya",
+    "One-Man Koganei"
+],
+
+"rollsigns": [
+    {
+      "uv": [0.38679245, 1.00, 0.0, 1.00],
+      "pos": [
+        [[1.38, 2.2514, -2.6173], [1.38, 2.1186, -2.6173], [1.38, 2.1186, -2.1027], [1.38, 2.2514, -2.1027]],
+        [[-1.38, 2.2514, 2.6773], [-1.38, 2.1186, 2.6773], [-1.38, 2.1186, 2.1627], [-1.38, 2.2514, 2.1627]]
+      ],
+      "doAnimation": false,
+      "disableLighting": false
+    },
+    {
+      "uv": [0.0, 0.38679245, 0.0, 1.00],
+      "pos": [
+        [[0.2450, 2.4407, 9.66], [0.2450, 2.2395, 9.66], [-0.2450, 2.2395, 9.66], [-0.2450, 2.4407, 9.66]]
+      ],
+      "doAnimation": false,
+      "disableLighting": false
+    }
+  ],
+  
+"soundScriptPath": "scripts/sound_223.js",
+"sound_BrakeRelease": "sound_mugenlib:RTMLib.Brake.BR1N",
+"sound_BrakeRelease2": "sound_mugenlib:RTMLib.Brake.BR1L",
+"sound_DoorOpen": "sound_mugenlib:RTMLib.Door.E721_Open",
+"sound_DoorClose": "sound_mugenlib:RTMLib.Door.E721_Close",
+"sound_Horn": "sound_mugenlib:RTMLib.Horn.Horn8",
+"sound_Announcement": [
+		["Dep_Melody1", "sound_mugenlib:RTMLib.sound.Water_Crown_1"], 
+		["Door_Announce", "sound_mugenlib:RTMLib.sound.E721_announce"]],
+
+"door_left": [
+ {"objects": ["door_LF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.65]]},
+ {"objects": ["door_LB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.65]]}
+],
+
+"door_right": [
+ {"objects": ["door_RF"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, 0.65]]},
+ {"objects": ["door_RB"],
+ "pos": [0.0, 0.0, 0.0],
+ "transform": [[0.0, 0.0, -0.65]]}
+],
+  
+"seatPos": [
+	[16, 0, 98, 2],[16, 0, 90, 2],[16, 0, 83, 2],[16, 0, 76, 2],[16, 0, 68, 2],[16, 0, 61, 2],[16, 0, 54, 2],[16, 0, 46, 2],[16, 0, 39, 2],[16, 0, 32, 2],[16, 0, 24, 2],[16, 0, 17, 2],
+	[16, 0, -16, 2],[16, 0, -23, 2],[16, 0, -31, 2],[16, 0, -38, 2],[16, 0, -45, 2],[16, 0, -53, 2],[16, 0, -60, 2],[16, 0, -67, 2],[16, 0, -75, 2],[16, 0, -82, 2],[16, 0, -89, 2],[16, 0, -97, 2],
+	[-16, 0, 98, 2],[-16, 0, 90, 2],[-16, 0, 83, 2],[-16, 0, 76, 2],[-16, 0, 68, 2],[-16, 0, 61, 2],[-16, 0, 54, 2],[-16, 0, 46, 2],[-16, 0, 39, 2],[-16, 0, 32, 2],[-16, 0, 24, 2],[-16, 0, 17, 2],
+	[-16, 0, -16, 2],[-16, 0, -23, 2],[-16, 0, -31, 2],[-16, 0, -38, 2],[-16, 0, -45, 2],[-16, 0, -53, 2],[-16, 0, -60, 2],[-16, 0, -67, 2],[-16, 0, -75, 2],[-16, 0, -82, 2],[-16, 0, -89, 2],[-16, 0, -97, 2]
+],
+
+"interiorLights": [
+	{"pos": [0.0, 2.5, 5.0]},
+	{"pos": [0.0, 2.5, -5.0]}
+],
+
+"renderLight": true,
+"smoothing": true,
+"doCulling": "true",
+"maxSpeed": [0.40, 0.84, 1.08, 1.39, 1.60],
+"muteJointSound": "true",
+"playerPos": [[0.81, 0.32, 8.78], [0.81, 0.32, 8.78]],
+"bogiePos": [[0.0, 0.0, 6.95], [0.0, 0.0, -6.95]],
+"trainDistance": 10.04
+
+}

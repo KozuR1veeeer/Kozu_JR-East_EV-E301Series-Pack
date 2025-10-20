@@ -1,0 +1,14 @@
+
+# GIMPファイル
+*.xcf
+
+# Release用のzipファイル
+*.zip
+
+# OSごとの余計なファイル
+.DS_Store
+Thumbs.db
+
+#.gitignoreファイル記載項目
+IgnoreFolder/
+
