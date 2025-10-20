@@ -14,7 +14,7 @@ This is an addon pack that adds the JR East EV-E301 series train to RealTrainMod
 
 ## How to Install
 0. Delete `[RTM]SeriesEV-E301_KarasuyamaLine.zip` from the `mods` folder (if a previous version is installed).
-1. Copy the downloaded `[RTM]Kozu_JR-East_EV-E301Series-Pack.zip` to the `mods` folder.
+1. Copy the downloaded `Kozu_JR-East_EV-E301Series-Pack.zip` to the `mods` folder.
 2. Launch Minecraft and confirm that each model has been added.
 
 ### Required Packs
