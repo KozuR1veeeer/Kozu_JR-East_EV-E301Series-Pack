@@ -3,6 +3,8 @@
 🌍 Languages: [日本語](README.md) | [English](README.en.md) | [中文](README.zh.md) | [한국어](README.kr.md)
 <br>※ 이 번역은 Gemini에 의해 자동 번역되었습니다.
 
+<img width="2880" height="1513" alt="ReleaseShot" src="https://github.com/user-attachments/assets/f5a30985-d04d-4acf-b25a-42f0e18f5250" />
+
 ## 개요
 RealTrainMod에 JR 동일본 EV-E301계 전동차를 추가하는 애드온 팩입니다.
 

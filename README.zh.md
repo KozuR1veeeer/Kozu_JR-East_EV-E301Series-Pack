@@ -3,6 +3,8 @@
 🌍 Languages: [日本語](README.md) | [English](README.en.md) | [中文](README.zh.md) | [한국어](README.kr.md)
 <br>※本翻译由Gemini自动翻译。
 
+<img width="2880" height="1513" alt="ReleaseShot" src="https://github.com/user-attachments/assets/f5a30985-d04d-4acf-b25a-42f0e18f5250" />
+
 ## 概述
 这是一个将JR东日本EV-E301系列电车添加到RealTrainMod的插件包。
 
