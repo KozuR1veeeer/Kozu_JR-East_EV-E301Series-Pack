@@ -1,8 +1,8 @@
 # JR東日本EV-E301系パック
 
-<img width="2880" height="1513" alt="ReleaseShot" src="https://github.com/user-attachments/assets/f5a30985-d04d-4acf-b25a-42f0e18f5250" />
-
 🌍 Languages: [日本語](README.md) | [English](README.en.md) | [中文](README.zh.md) | [한국어](README.kr.md)
+
+<img width="2880" height="1513" alt="ReleaseShot" src="https://github.com/user-attachments/assets/f5a30985-d04d-4acf-b25a-42f0e18f5250" />
 
 ## 概要
 RealTrainModにJR東日本EV-E301系電車を追加するアドオンパックです。
