@@ -1,18 +1,18 @@
-# JR东日本E501系包
+# JR东日本EV-E301系包
 
 🌍 Languages: [日本語](README.md) | [English](README.en.md) | [中文](README.zh.md) | [한국어](README.kr.md)
 <br>※本翻译由Gemini自动翻译。
 
 ## 概述
-这是一个将JR东日本E501系列电车添加到RealTrainMod的插件包。
+这是一个将JR东日本EV-E301系列电车添加到RealTrainMod的插件包。
 
 ## 运行确认环境
 * Minecraft 1.7.10 (KaizPatchX-1.7.1)
 * Minecraft 1.12.2 (RTM 2.4.23-42)
 
 ## 安装方法
-0. 从 `mods` 文件夹中删除 `[RTM]Kozu_SeriesE501_K703.zip` 和 `[RTM]Kozu_SeriesE501_K704.zip`（如果已安装旧版本）。
-1. 将下载的 `[RTM]Kozu_JR-East_E501Series-Pack.zip` 复制到 `mods` 文件夹中。
+0. 从 `mods` 文件夹中删除 `[RTM]SeriesEV-E301_KarasuyamaLine`（如果已安装旧版本）。
+1. 将下载的 `[RTM]Kozu_JR-East_EV-E301Series-Pack.zip` 复制到 `mods` 文件夹中。
 2. 启动Minecraft，确认各模型已添加。
 
 ### 前置包
@@ -20,12 +20,11 @@
     * 如果未安装，游戏可能会崩溃。
 
 ## 收录内容
-* **K703编成**: 川崎重工制造 / 现行规格 / 单臂受电弓 / LED目的地显示器
-* **K704编成**: 东急车辆制造 / 现行规格 / 单臂受电弓 / 卷帘式目的地显示器
+* **V1编成**: 量产先行车
 
 ## 主要功能
 * **室内灯**: 与头灯和尾灯联动点亮。
-* **运行编号显示器**: 使用RTM的自定义按钮功能，可以单独设置5位数的运行编号。
+* **目的地显示器**: 收录了实车上所有的显示内容。
 
 ---
 
@@ -46,13 +45,14 @@
 * **未经修改的二次分发或未经授权的转载**
 * **直接商业使用本包数据（如销售）**
 * **将数据移植到其他游戏或平台（如RailSim、Roblox等）**
+* **让人联想到事件或事故的使用方式**
 
 ---
 
 ## 联系方式与问题报告
 有关条款中未记载的使用方法或疑问，请联系作者的X账户。
 * **X (旧Twitter):** @Kozu_Heavy_Ind (私信或回复)
-
+  
 <br>如果您发现BUG或问题，请在Issue中报告，我们将不胜感激。
 
 ## 免责声明
@@ -64,4 +64,4 @@
     * 河 (A1nx_R1ver)
     * 河津重工業 (@Kozu_Heavy_Ind)
 * **特别感谢**:
-    * 描画脚本: 水音車両 (@minatosyaryo)
+    * 描画脚本: 水音車両 様 (@minatosyaryo)
