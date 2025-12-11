@@ -1,7 +1,7 @@
 # JR East EV-E301 Series Pack
 
 🌍 Languages: [日本語](README.md) | [English](README.en.md) | [中文](README.zh.md) | [한국어](README.kr.md)
-<br>※This translation is an automatic translation by Gemini.
+<br>※This translation was done using Gemini 3.0.
 
 <img width="2880" height="1513" alt="ReleaseShot" src="https://github.com/user-attachments/assets/f5a30985-d04d-4acf-b25a-42f0e18f5250" />
 
@@ -45,6 +45,7 @@ By downloading or using this pack, you are deemed to have agreed to the followin
 
 ### ❌ Prohibited
 * **Secondary distribution or unauthorized reproduction of the unmodified pack**
+* **Extracting models, textures, etc. used in this pack and reusing them in other packs**
 * **Direct commercial use of this pack's data (e.g., selling)**
 * **Porting data to other games or platforms (e.g., RailSim, Roblox, etc.)**
 * **Use that evokes incidents or accidents**
