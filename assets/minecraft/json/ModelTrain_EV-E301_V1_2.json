@@ -18,7 +18,7 @@
 ],
 
 "buttonTexture": "textures/train/button/button_EV-E301_V1_2.png",
-"rollsignTexture": "textures/train/Rolllsign_EV-E301.png",
+"rollsignTexture": "textures/train/Rollsign_EV-E301.png",
   "rollsignNames": [
     "No Display",
     "Not in service",
