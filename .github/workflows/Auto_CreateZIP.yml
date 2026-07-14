@@ -17,7 +17,7 @@ jobs:
 
       - name: Create ZIP file
         run: |
-          zip -r "Kozu_JR-East_EV-E301Series-Pack.zip" \
+          zip -r "Kozu_JRE_EV-E301Series-Pack.zip" \
             assets/minecraft \
             README.md \
             README.en.md \
@@ -28,6 +28,6 @@ jobs:
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v2
         with:
-          files: "Kozu_JR-East_EV-E301Series-Pack.zip"
+          files: "Kozu_JRE_EV-E301Series-Pack.zip"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
